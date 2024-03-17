@@ -12,21 +12,22 @@ Python based acoustic horn design utility.
 
 mamba create -n phorndesign python=3.10
 mamba activate phorndesign
-
-mamba install -c conda-forge numpy scipy matplotlib gmsh plotly pandoc
-
-git submodule add https://github.com/rocapp/desmos2python.git
-cd desmos2python
-python3 -m pip install .
+mamba install -c conda-forge numpy scipy matplotlib gmsh plotly
 ```
 
 ## Stage 1
 - [x] Setup project repo
-- [ ] Implement OS waveguide curve
+- [x] Implement OS waveguide curve
 - [ ] Rotate curve to generate waveguide
 - [ ] Export mesh of wavewguide
 - [ ] Export stl of waveguide
+
+## Stage 2
+- [ ] Implement automatic rough calc of lower frequency of waveguide control
+- [ ] Implement automatic rough calc of lower frequency of roundover
  
+## Stage 3
+ - [ ] Implement rotation strategy for axis asymmetric waveguides
 
 ## Licence
 This is free and unencumbered software released into the public domain.
