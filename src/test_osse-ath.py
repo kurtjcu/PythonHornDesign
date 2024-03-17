@@ -19,9 +19,9 @@ L = 160  # Length of the horn
 alpha = 30.0  # Dispersion angle / 2
 r_0 = 12.7  # Throat radius
 alpha_0 = 8  # Throat angle
-k = 1.8  # Expansion factor ( 0 - 10)
+k = 1.0  # Expansion factor ( 0 - 10)
 s = 0.7  # Superellipse aspect ratio
-q = 0.996  # Superellipse quadrant usage factor (truncation coefficient)) 0.990 - 1.000
+q = 0.996  # Superellipse termination (truncation coefficient) 0.990 - 1.000
 n = 4.0  # superellipse exponent (compress superelipse) 2.0 - 10.0, lower numbers = lower frequency cutoff
 
 osse_coords = []  # OSSE coordinates
