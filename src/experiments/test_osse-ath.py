@@ -3,7 +3,7 @@ Osse via ATH formula
 Credit to the original author of Oblate Sphereoid in compression drivers, ER Geddes. 
 
 I just made a python implementation of it from below (M Batic) who has added some convenient functions including the roundover for the mouth terminations.
-Mu implementation is NOT EXACTLY the same as the original, but it is (hopefully) close enough for the purpose of this project. 
+My implementation is NOT EXACTLY the same as the original, but it is (hopefully) close enough for the purpose of this project. 
 https://at-horns.eu/
 
 Desmos calc of OSSE by M Batic

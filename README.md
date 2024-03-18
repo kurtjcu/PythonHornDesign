@@ -17,7 +17,9 @@ mamba install -c conda-forge numpy scipy matplotlib gmsh plotly
 
 ## Stage 1
 - [x] Setup project repo
-- [x] Implement OS waveguide curve
+- [0] Implement OS waveguide curve
+    - [x] Test Implement OS waveguide curve
+    - [ ] Implement OS waveguide curve as a function
 - [ ] Rotate curve to generate waveguide
 - [ ] Export mesh of wavewguide
 - [ ] Export stl of waveguide
