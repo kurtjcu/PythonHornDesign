@@ -12,15 +12,15 @@ Python based acoustic horn design utility.
 
 mamba create -n phorndesign python=3.10
 mamba activate phorndesign
-mamba install -c conda-forge numpy scipy matplotlib gmsh plotly
+mamba install -c conda-forge numpy scipy matplotlib gmsh plotly pyyaml
 ```
 
 ## Stage 1
 - [x] Setup project repo
-- [0] Implement OS waveguide curve
+- [x] Implement OS waveguide curve
     - [x] Test Implement OS waveguide curve
-    - [ ] Implement OS waveguide curve as a function
-- [ ] Rotate curve to generate waveguide
+    - [x] Implement OS waveguide curve as a function
+- [x] Rotate curve to generate waveguide
 - [ ] Export mesh of wavewguide
 - [ ] Export stl of waveguide
 

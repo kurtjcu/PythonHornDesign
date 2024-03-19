@@ -1,0 +1,9 @@
+horn:
+  horn_length: 160  # Length of the horn
+  dispertion_angle: 30.0  # Dispersion angle / 2
+  throat_radius: 12.7  # Throat radius
+  throat_angle: 7.5  # Throat angle
+  k: 1.0  # Expansion factor ( 0 - 10)
+  s: 0.7  # Superellipse aspect ratio
+  q: 0.996  # Superellipse termination (truncation coefficient) 0.990 - 1.000
+  n: 4.0  # superellipse exponent (compress superelipse) 2.0 - 10.0, lower numbers = lower frequency cutoff
