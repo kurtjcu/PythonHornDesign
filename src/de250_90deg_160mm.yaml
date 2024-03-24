@@ -8,6 +8,11 @@ horn:
   q: 0.996  # Superellipse termination (truncation coefficient) 0.990 - 1.000
   n: 4.0  # superellipse exponent (compress superelipse) 2.0 - 10.0, lower numbers = lower frequency cutoff
 plotting: # high values here may cause plotly to bog down or fail to generate the plot
-  generate_plot: True  # Generate a 3D plot of the horn
+  generate_plot: False  # Generate a 3D plot of the horn
   samples_per_mm: 1  # Number of samples per mm along the horn_length
-  points_of_rotation: 30  # How many times to plot the curve around the axis of rotation (z axis)
+  points_of_rotation: 64  # How many times to plot the curve around the axis of rotation (z axis)
+meshing:
+  generate_mesh: True  # Generate a mesh of the horn
+  # mesh_density: 1  # Number of samples per mm along the horn_length
+  # mesh_resolution: 0.5  # Resolution of the mesh
+  # mesh_filename: de250_90deg_160mm.stl  # Filename of the mesh

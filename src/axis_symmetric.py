@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 
 from func_osse import osse
 from coordinate_utils import cartesian_2_polar, rotate_2d_2_3d, polar_2_cartesian
+from meshing import create_mesh_from_sections
 
 def main(args):
 
@@ -41,6 +42,10 @@ def main(args):
     vector_cart_3d = np.array(
         list(map(lambda v: list(map(polar_2_cartesian, v)), vector_polar_3d))
     )
+    # make mesh from the points
+    if horn_definition["meshing"]["generate_mesh"]:
+        create_mesh_from_sections(vector_cart_3d)
+    
     # flatten to (n, 3) for easier plotting
     vector_cart_3d_flat = vector_cart_3d.reshape(-1, 3)
     # print(f"3d cartesian shape {vector_cart_3d.shape}")
